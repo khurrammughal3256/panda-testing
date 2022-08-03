@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .carousel-item {
+            height: 600px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">logo</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav ms-auto">
+                    <a href="#" class="nav-item nav-link" title="homepage">Home</a>
+                    <a href="#" class="nav-item nav-link" title="about page">About</a>
+                    <a href="#" class="nav-item nav-link">Gallery</a>
+                    <a href="#" class="nav-item nav-link">Contant</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="slider" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-bs-interval="500">
+                <img src="images/slider-1.webp" class="w-100" alt="">
+                <div class="carousel-caption">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam earum vitae sint accusantium,
+                        temporibus fuga aperiam facere molestiae vel pariatur tempore veniam quod vero error, maiores,
+                        deleniti illum velit nesciunt!</p>
+                </div>
+
+            </div>
+
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" class="w-100" alt="">
+                <div class="carousel-caption">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam earum vitae sint accusantium,
+                        temporibus fuga aperiam facere molestiae vel pariatur tempore veniam quod vero error, maiores,
+                        deleniti illum velit nesciunt!</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+                    class="w-100" alt="">
+                <div class="carousel-caption">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam earum vitae sint accusantium,
+                        temporibus fuga aperiam facere molestiae vel pariatur tempore veniam quod vero error, maiores,
+                        deleniti illum velit nesciunt!</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="https://image.shutterstock.com/image-photo/mountains-under-mist-morning-amazing-260nw-1725825019.jpg"
+                    class="w-100" alt="">
+                <div class="carousel-caption">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam earum vitae sint accusantium,
+                        temporibus fuga aperiam facere molestiae vel pariatur tempore veniam quod vero error, maiores,
+                        deleniti illum velit nesciunt!</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" data-bs-target="#slider" data-bs-slide="prev">
+            Prev
+        </button>
+
+        <button class="carousel-control-next" data-bs-target="#slider" data-bs-slide="next">
+            Next
+        </button>
+
+    </div>
+
+</body>
+
+</html>
+<script src="js/bootstrap.min.js"></script>
